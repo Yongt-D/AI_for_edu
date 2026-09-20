@@ -33,7 +33,7 @@ The analysis distinguishes discrimination, probability calibration, class-specif
 | [Reproduction guide](docs/REPRODUCIBILITY.md) | Commands to validate, regenerate figures or refit models |
 | [上传维护说明（中文）](docs/UPLOAD_GUIDE.zh-CN.md) | GitHub and Google Drive maintenance instructions |
 
-Individual-level predictions, features and split memberships are kept outside Git. The [Google Drive folder](https://drive.google.com/drive/folders/1JM6_PfNNw40j4FWhqAvTGxRweyQwsyAr?usp=sharing) is designated for the companion package; **package upload and download are not yet verified**. See [data access](docs/DATA_ACCESS.md) for the current status. All results can instead be regenerated from the original public datasets using the full workflow. This repository does not contain the unpublished manuscript, author-information documents, raw datasets, credentials or internal review correspondence.
+Individual-level predictions, features and split memberships are kept outside Git. The [Google Drive folder](https://drive.google.com/drive/folders/1JM6_PfNNw40j4FWhqAvTGxRweyQwsyAr?usp=sharing) contains the version 1.0.0 companion package; **anonymous download and SHA-256 verification passed on 20 September 2026**. See [data access](docs/DATA_ACCESS.md) for the current status. All results can instead be regenerated from the original public datasets using the full workflow. This repository does not contain the unpublished manuscript, author-information documents, raw datasets, credentials or internal review correspondence.
 
 ## Quick start
 

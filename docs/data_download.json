@@ -1,9 +1,11 @@
 {
   "version": "1.0.0",
-  "status": "pending_upload",
-  "url": null,
+  "status": "available",
+  "url": "https://drive.google.com/uc?export=download&id=1HoSkyFWVetEhL8B19NV-seETIfqMLDoa",
   "filename": "AI_for_edu_data_v1.0.0.zip",
   "bytes": 18795926,
   "sha256": "cd5d801c19ca00cbfb49d5089bae16642d722363896021273a4cc3713d90389e",
-  "folder_url": "https://drive.google.com/drive/folders/1JM6_PfNNw40j4FWhqAvTGxRweyQwsyAr?usp=sharing"
+  "folder_url": "https://drive.google.com/drive/folders/1JM6_PfNNw40j4FWhqAvTGxRweyQwsyAr?usp=sharing",
+  "verified_utc_date": "2026-09-20",
+  "verification": "Anonymous download succeeded; SHA-256 matches the released package."
 }

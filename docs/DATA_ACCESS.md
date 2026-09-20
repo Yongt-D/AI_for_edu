@@ -9,9 +9,9 @@ See [data attribution and licenses](../DATA_LICENSES.md) for citations, CC BY 4.
 
 ## Companion Google Drive package
 
-**Status: package prepared; upload and public download remain to be verified.**
+**Status: publicly available. Anonymous ZIP download and SHA-256 verification passed on 20 September 2026.**
 
-Designated folder: [Google Drive](https://drive.google.com/drive/folders/1JM6_PfNNw40j4FWhqAvTGxRweyQwsyAr?usp=sharing). Look for `AI_for_edu_data_v1.0.0.zip`; the folder link alone does not establish that the package has been uploaded. The GitHub repository contains code and aggregate results. Until the companion package is published, use the full refitting workflow to regenerate individual-level files.
+Download [AI_for_edu_data_v1.0.0.zip](https://drive.google.com/uc?export=download&id=1HoSkyFWVetEhL8B19NV-seETIfqMLDoa), or open the [Google Drive folder](https://drive.google.com/drive/folders/1JM6_PfNNw40j4FWhqAvTGxRweyQwsyAr?usp=sharing) for the ZIP, checksum and manifest. The GitHub repository contains code and aggregate results.
 
 - Filename: `AI_for_edu_data_v1.0.0.zip`
 - Size: 18,795,926 bytes
