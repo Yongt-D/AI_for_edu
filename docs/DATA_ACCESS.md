@@ -7,7 +7,9 @@
 
 See [data attribution and licenses](../DATA_LICENSES.md) for citations, CC BY 4.0 terms and the changes made by this analysis.
 
-## Companion Google Drive package
+## Companion data package
+
+The [repository README](../README.md#download-the-companion-data) is the maintained entry point for current download links. Cite the repository URL when referring readers to the companion data.
 
 **Status: publicly available. Anonymous ZIP download and SHA-256 verification passed on 20 September 2026.**
 

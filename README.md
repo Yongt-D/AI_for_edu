@@ -33,7 +33,17 @@ The analysis distinguishes discrimination, probability calibration, class-specif
 | [Reproduction guide](docs/REPRODUCIBILITY.md) | Commands to validate, regenerate figures or refit models |
 | [上传维护说明（中文）](docs/UPLOAD_GUIDE.zh-CN.md) | GitHub and Google Drive maintenance instructions |
 
-Individual-level predictions, features and split memberships are kept outside Git. The [Google Drive folder](https://drive.google.com/drive/folders/1JM6_PfNNw40j4FWhqAvTGxRweyQwsyAr?usp=sharing) contains the version 1.0.0 companion package; **anonymous download and SHA-256 verification passed on 20 September 2026**. See [data access](docs/DATA_ACCESS.md) for the current status. All results can instead be regenerated from the original public datasets using the full workflow. This repository does not contain the unpublished manuscript, author-information documents, raw datasets, credentials or internal review correspondence.
+## Download the companion data
+
+This repository is the public entry point for the study's code and companion data. **Use this README for the current data download location.** If the storage location changes, the links below will be updated here; the repository URL remains the entry point cited in the manuscript.
+
+- **[Download the version 1.0.0 data ZIP](https://drive.google.com/uc?export=download&id=1HoSkyFWVetEhL8B19NV-seETIfqMLDoa)** (`AI_for_edu_data_v1.0.0.zip`, 18,795,926 bytes).
+- **[Open the Google Drive folder](https://drive.google.com/drive/folders/1JM6_PfNNw40j4FWhqAvTGxRweyQwsyAr?usp=sharing)** for the ZIP, `AI_for_edu_data_v1.0.0.zip.sha256` and `DATA_MANIFEST.json`.
+- Follow the [data access and checksum instructions](docs/DATA_ACCESS.md) before extraction, then the [reproduction guide](docs/REPRODUCIBILITY.md).
+
+Anonymous download and SHA-256 verification passed on 20 September 2026. The package contains derived features, partition memberships, predictions and other reproduction inputs; these files are kept outside Git. Original data sources and their terms are listed in the data-access documentation. All results can also be regenerated from the original public datasets using the full workflow.
+
+The repository does not contain the unpublished manuscript, author-information documents, raw datasets, credentials or internal review correspondence.
 
 ## Quick start
 
