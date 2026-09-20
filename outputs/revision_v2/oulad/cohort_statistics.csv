@@ -1,0 +1,4 @@
+setting,n_source,n_test,source_overlap_rows_excluded,source_non_success_rate,test_non_success_rate,test_unique_persons
+temporal_B,4004,3607,119,0.4775224775224775,0.48461325200998057,3606
+temporal_J,7352,7193,331,0.3982589771490751,0.38259418879466145,7190
+course_DDD,21626,5279,623,0.42485896605937296,0.5061564690282251,4997

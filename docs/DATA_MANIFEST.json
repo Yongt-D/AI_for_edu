@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "raw_datasets_included": false,
+  "files": [
+    {
+      "path": "data/processed_v2/enrolments.parquet",
+      "bytes": 44919,
+      "sha256": "dd8215fe22d86cf7f552205d198c2d58af172f540a9c886d6176bdb88fe23559"
+    },
+    {
+      "path": "data/processed_v2/features_week2.parquet",
+      "bytes": 311534,
+      "sha256": "1eef5382d601c192a1137f503ebe31475961e45804ae32841dce441082c68bfc"
+    },
+    {
+      "path": "data/processed_v2/features_week4.parquet",
+      "bytes": 384925,
+      "sha256": "7755b683c8d914410a20eeb42860624699749cb3797b163f46d278e5fea5861c"
+    },
+    {
+      "path": "data/processed_v2/features_week6.parquet",
+      "bytes": 418985,
+      "sha256": "8315f675f8715fa6e7ee34a4d0e569be670dcbdbae2dcbb691c70366e14cf97f"
+    },
+    {
+      "path": "data/processed_v2/features_week8.parquet",
+      "bytes": 447625,
+      "sha256": "b0c3ce6b1d153892b28c9ae859e99e8e83accf98a3ad3dafb34d084687a5ac1b"
+    },
+    {
+      "path": "data/processed_v2/splits/course_1_week4.csv",
+      "bytes": 162331,
+      "sha256": "0fa7222b29c459cdec95df389c45db5b17ec99c9ae0fced11bb02d6c1d376447"
+    },
+    {
+      "path": "data/processed_v2/splits/course_2_week4.csv",
+      "bytes": 162131,
+      "sha256": "1a736396dbffbcabe59c0ac2ff68d569c1de7828cfbc4a6e2fc07e3be8cf3169"
+    },
+    {
+      "path": "data/processed_v2/splits/iid_week4.csv",
+      "bytes": 165441,
+      "sha256": "f1b74bcbb18396a5f43752a1690604f37a9195ec2144faa7bf1d4e1d1184a89a"
+    },
+    {
+      "path": "data/processed_v2/splits/temporal_1_week4.csv",
+      "bytes": 166210,
+      "sha256": "f2c230609b9c0d655aa8380e81c777d352650843d850d055e0c7b5e9fb4ad300"
+    },
+    {
+      "path": "data/processed_v2/splits/temporal_2_week4.csv",
+      "bytes": 164082,
+      "sha256": "604628a7d579dda1c113996b9eb1ae877a3c35b578bb18591886ce24855b90e9"
+    },
+    {
+      "path": "outputs/revision_v2/curves.csv",
+      "bytes": 4040351,
+      "sha256": "c56f7e06d9d5e89960e13964650e5563e64ab05456549bff68db1f6e3a151265"
+    },
+    {
+      "path": "outputs/revision_v2/oulad/curves.csv",
+      "bytes": 8424283,
+      "sha256": "6b6dfe84e766c2b14ca8d4ce1ab37fb5bbf1a8cc829ef2d76ff87ff14d46ce6f"
+    },
+    {
+      "path": "outputs/revision_v2/oulad/features_week4.parquet",
+      "bytes": 789915,
+      "sha256": "4268f90c6b389fa5c3ecd15a1cfad3f821bd4c08de4080f70a8d8da94add4e15"
+    },
+    {
+      "path": "outputs/revision_v2/oulad/outcome_metadata.csv",
+      "bytes": 1207828,
+      "sha256": "ea3b59e87b96ffcc20d05d0cdf26d11a0e5fd2ded4afdbd284abd607a90aa84a"
+    },
+    {
+      "path": "outputs/revision_v2/oulad/partitions.csv",
+      "bytes": 2127217,
+      "sha256": "69411d20c24825129d09ad7748ba700cecbce5ac077b186ccd5a3eb58423c42f"
+    },
+    {
+      "path": "outputs/revision_v2/oulad/predictions.parquet",
+      "bytes": 8175590,
+      "sha256": "5d23d6f552661478aa845c4e0d2cecbfca7fb9c62e8c87ec67720b3f47dbb0ae"
+    },
+    {
+      "path": "outputs/revision_v2/oulad/weights.csv",
+      "bytes": 226304,
+      "sha256": "79d8d30bf45592ef01f68786b1d98decbb500939036bf0de1edd380747d7eaab"
+    },
+    {
+      "path": "outputs/revision_v2/partitions.csv",
+      "bytes": 5229490,
+      "sha256": "a24cfe3dbdfab51a330c16969f3f07e34002890419d98110b65f6a4567397f1d"
+    },
+    {
+      "path": "outputs/revision_v2/predictions.parquet",
+      "bytes": 2679748,
+      "sha256": "bc1a346605700068f103f1858ba2af1f3c8d0a55a9769364fdcd70c4dc652e3a"
+    },
+    {
+      "path": "outputs/revision_v2/weights.csv",
+      "bytes": 481391,
+      "sha256": "f17d9a9cc5af15f3b76b2f7e20c32da6f46907122875fd5a79b79e7486144320"
+    },
+    {
+      "path": "outputs/revision_v3/adaptation_partitions.csv",
+      "bytes": 410885,
+      "sha256": "a1f6f97aa2d0ef9f62e868b8cecf5a87064436a6c5eea46307f9168b9ff6a02c"
+    },
+    {
+      "path": "outputs/revision_v3/predictions.parquet",
+      "bytes": 11568803,
+      "sha256": "10b11e65ce20cb6b0da225a3140aad93610863a480a1ca8bdc256bbc65b67807"
+    }
+  ]
+}

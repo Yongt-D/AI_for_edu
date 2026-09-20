@@ -1,0 +1,25 @@
+# Local data and generated row-level outputs
+data/raw/
+*.parquet
+**/partitions.csv
+**/adaptation_partitions.csv
+**/outcome_metadata.csv
+**/weights.csv
+**/curves.csv
+data/processed_v2/splits/
+outputs/**/runs/
+*.zip
+*.7z
+*.tar.gz
+# Local environments and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+.vscode/
+.idea/
+tmp/
+catboost_info/
+manuscript/

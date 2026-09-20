@@ -1,0 +1,7 @@
+setting,model,enrolments,persons,repeated_persons,maximum_enrolments
+course_DDD,catboost,5279,4997,278,3
+course_DDD,logistic,5279,4997,278,3
+temporal_B,catboost,3607,3606,1,2
+temporal_B,logistic,3607,3606,1,2
+temporal_J,catboost,7193,7190,3,2
+temporal_J,logistic,7193,7190,3,2

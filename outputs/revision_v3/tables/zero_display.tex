@@ -1,0 +1,26 @@
+\begin{tabular}{llllllll}
+\toprule
+Setting & Model & Method & N & Fail N & Cov. & Auto & Error\\
+\midrule
+IID & Logistic & MCP & 25 & 11 & 0.776 & 0.400 & 0.560\\
+IID & Logistic & EIQ-batch & 25 & 11 & 0.888 & 0.200 & 0.560\\
+IID & CatBoost & MCP & 25 & 11 & 1.000 & 0.000 & --\\
+IID & CatBoost & EIQ-batch & 25 & 11 & 1.000 & 0.000 & --\\
+Temporal-1 & Logistic & MCP & 48 & 29 & 1.000 & 0.000 & --\\
+Temporal-1 & Logistic & EIQ-batch & 48 & 29 & 1.000 & 0.000 & --\\
+Temporal-1 & CatBoost & MCP & 48 & 29 & 1.000 & 0.000 & --\\
+Temporal-1 & CatBoost & EIQ-batch & 48 & 29 & 1.000 & 0.000 & --\\
+Temporal-2 & Logistic & MCP & 14 & 12 & 1.000 & 0.000 & --\\
+Temporal-2 & Logistic & EIQ-batch & 14 & 12 & 1.000 & 0.000 & --\\
+Temporal-2 & CatBoost & MCP & 14 & 12 & 1.000 & 0.000 & --\\
+Temporal-2 & CatBoost & EIQ-batch & 14 & 12 & 1.000 & 0.000 & --\\
+Course-1 & Logistic & MCP & 69 & 43 & 1.000 & 0.000 & --\\
+Course-1 & Logistic & EIQ-batch & 69 & 43 & 1.000 & 0.000 & --\\
+Course-1 & CatBoost & MCP & 69 & 43 & 1.000 & 0.000 & --\\
+Course-1 & CatBoost & EIQ-batch & 69 & 43 & 1.000 & 0.000 & --\\
+Course-2 & Logistic & MCP & 68 & 37 & 1.000 & 0.006 & 0.000\\
+Course-2 & Logistic & EIQ-batch & 68 & 37 & 0.818 & 0.400 & 0.306\\
+Course-2 & CatBoost & MCP & 68 & 37 & 1.000 & 0.000 & --\\
+Course-2 & CatBoost & EIQ-batch & 68 & 37 & 1.000 & 0.000 & --\\
+\bottomrule
+\end{tabular}

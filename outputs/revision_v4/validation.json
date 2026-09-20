@@ -1,0 +1,5 @@
+[
+  "All 360 course/model/calibration/method/seed groups independently recomputed from saved predictions",
+  "All 324 conditional interval point estimates and denominators match source results; 2,000 finite replicates per interval",
+  "Course-stratified coverage and missed-failure numerators reconstruct every pooled temporal estimate"
+]

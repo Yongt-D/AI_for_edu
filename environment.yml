@@ -1,0 +1,19 @@
+name: aiedu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pandas=2.3
+  - scikit-learn=1.9
+  - scipy
+  - matplotlib
+  - packaging
+  - pillow
+  - pyarrow
+  - pyyaml
+  - pytest
+  - pip
+  - pip:
+      - catboost==1.2.10

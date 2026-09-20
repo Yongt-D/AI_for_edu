@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "All saved post-review set/probability metrics independently recomputed from prediction rows",
+    "All 150 inherited primary method/model/seed results reproduced",
+    "Five label-independent adaptation/evaluation partitions disjoint; identical held-out subjects in every paired comparison",
+    "Reported Temporal-1 identical batch/independent sets verified across both models and all seeds",
+    "All OULAD cluster-bootstrap point estimates match original target performance; interval bounds are valid"
+  ],
+  "groups": 2700,
+  "primary_reproduction_groups": 150
+}

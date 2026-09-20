@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software and the original datasets when using the analysis."
+title: "AI_for_edu: Calibration and conformal prediction for student early warning"
+type: software
+authors:
+  - family-names: Guo
+    given-names: Haiyang
+  - family-names: Yang
+    given-names: Bin
+repository-code: "https://github.com/Yongt-D/AI_for_edu"
+version: 1.0.0
+license: MIT
+abstract: "Reproducible analyses of probability calibration, prediction-set coverage and selective decisions across courses and academic years."
