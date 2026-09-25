@@ -49,7 +49,7 @@ summary = data.groupby(['setting', 'model', 'method'])[metrics].agg(['mean', 'mi
 summary.columns = ['_'.join(c) for c in summary.columns]
 summary.reset_index().to_csv(out / 'decision_composition_summary.csv', index=False)
 
-plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 9,
+plt.rcParams.update({'font.family': 'Times New Roman', 'mathtext.fontset': 'stix', 'font.size': 9,
                      'axes.labelsize': 9, 'pdf.fonttype': 42, 'ps.fonttype': 42})
 fig, axes = plt.subplots(2, 2, figsize=(9.4, 9.8))
 fig.subplots_adjust(left=.17, right=.98, top=.89, bottom=.08, wspace=.30, hspace=.48)

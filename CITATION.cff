@@ -5,8 +5,19 @@ type: software
 authors:
   - family-names: Guo
     given-names: Haiyang
+    affiliation: "No. 1 Primary School of Chenggong District, Kunming, Yunnan 650599, China; Faculty of Education, Yunnan Normal University, Kunming, Yunnan 650500, China"
+  - family-names: Yang
+    given-names: Yongjian
+    affiliation: "Faculty of Education, Yunnan Normal University, Kunming, Yunnan 650500, China"
+  - family-names: Tan
+    given-names: Fei
+    affiliation: "Future Education College, Beijing Normal University, Beijing 100875, China"
+  - family-names: Deng
+    given-names: Yongtao
+    affiliation: "School of Computer Science and Technology, Chongqing University of Posts and Telecommunications, Chongqing 400065, China"
   - family-names: Yang
     given-names: Bin
+    affiliation: "Faculty of Education, Yunnan Normal University, Kunming, Yunnan 650500, China"
 repository-code: "https://github.com/Yongt-D/AI_for_edu"
 version: 1.0.0
 license: MIT

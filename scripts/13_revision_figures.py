@@ -11,7 +11,7 @@ out=Path('outputs/revision_v2');fig=Path('figures/revision_v2');fig.mkdir(parent
 m=pd.read_csv(out/'metrics.csv');p=pd.read_parquet(out/'predictions.parquet');ci=pd.read_csv(out/'auc_intervals.csv')
 order=['iid','temporal_1','temporal_2','course_1','course_2'];names=dict(zip(order,['IID','Temporal-1','Temporal-2','Course-1','Course-2']))
 methods=['mondrian_cp','empirical_mondrian','weighted_cap10'];labels={'mondrian_cp':'Mondrian','empirical_mondrian':'Unit-weight empirical','weighted_cap10':'Weighted empirical'}
-colours=['#2364aa','#ef8a17','#239b7a'];plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'axes.spines.top':False,'axes.spines.right':False,'savefig.bbox':'tight','pdf.fonttype':42})
+colours=['#2364aa','#ef8a17','#239b7a'];plt.rcParams.update({'font.family':'Times New Roman','mathtext.fontset':'stix','font.size':9,'axes.spines.top':False,'axes.spines.right':False,'savefig.bbox':'tight','pdf.fonttype':42})
 def save(figure,name):
     figure.savefig(fig/(name+'.pdf'));figure.savefig(fig/(name+'.png'),dpi=180);plt.close(figure)
 def esc(v):return str(v).replace('_',r'\_').replace('%',r'\%').replace('&',r'\&')

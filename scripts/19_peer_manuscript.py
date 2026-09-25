@@ -34,7 +34,7 @@ for setting in names:
 table(pd.DataFrame(rows),'predictive_seeds')
 part=pd.read_csv('outputs/revision_v2/partitions.csv');part=part[(part.seed==42)&(part.partition=='conformal_score')]
 q=part.groupby('setting').risk.agg(['count','sum']).reindex(names);table(pd.DataFrame({'Setting':[names[v] for v in q.index],'Pass':q['count'].to_numpy()-q['sum'].to_numpy(),'Fail':q['sum'].to_numpy(),'Total':q['count'].to_numpy()}),'calibration_counts')
-plt.rcParams.update({'font.size':10,'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42})
+plt.rcParams.update({'font.family':'Times New Roman','mathtext.fontset':'stix','font.size':10,'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42})
 figure,axes=plt.subplots(2,3,figsize=(7.2,5.8))
 colors=['#2364aa','#d97c11','#23885b']
 for row,model in enumerate(models):

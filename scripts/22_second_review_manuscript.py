@@ -54,7 +54,7 @@ table(pd.DataFrame(rows),'oulad_main')
 
 p=pd.read_parquet('outputs/revision_v3/predictions.parquet');pri=((p.model=='logistic')&(p.class_weight=='balanced'))|((p.model=='catboost')&(p.class_weight=='unweighted'))
 p=p[pri&(p.scope=='full')&(p.method=='probability')&(p.seed==42)]
-plt.rcParams.update({'font.size':10,'pdf.fonttype':42,'axes.spines.top':False,'axes.spines.right':False})
+plt.rcParams.update({'font.family':'Times New Roman','mathtext.fontset':'stix','font.size':10,'pdf.fonttype':42,'axes.spines.top':False,'axes.spines.right':False})
 colors=['#2364aa','#d97c11','#23885b']
 def panel(ax,setting,model):
  for color,cal in zip(colors,['none','platt','isotonic']):
