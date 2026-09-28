@@ -1,0 +1,18 @@
+{
+  "src\\edu_shift\\calibration.py": "d3973685b7203cbaa43ee93fd72ce3c055373741c1ac4632081559d89561e551",
+  "src\\edu_shift\\conformal.py": "bbde1a182c6fe5809889832357b93ac2ad93105b3ff653201f1f26494ddb1c59",
+  "src\\edu_shift\\data.py": "5597b5ec58f68a2fe9b47aa5d3f389919e7b4bfd5cc09f8ff2d87b50eb4af467",
+  "src\\edu_shift\\features.py": "68609d58abb129d56cf5acb1985500cefcb61e032d5a88f7db098a9c5671b474",
+  "src\\edu_shift\\metrics.py": "0b0a85f3cac85671780755322f4adb38fa68db10daa6f9b31d024f20927e9407",
+  "src\\edu_shift\\revised_data.py": "19432c817a4678cee7c8b39404effb2c23cafee412af6f02456ff19709949c0a",
+  "src\\edu_shift\\revision_experiments.py": "4209a9e70878a8af11e23b09f673fc01b60299996cf98a1c848bda4ccdeddbc2",
+  "src\\edu_shift\\selective.py": "c8b217c6610213435140014f87f2d9ff84e29357c141e4f208cb778808391f40",
+  "src\\edu_shift\\shift.py": "88e97d2a2992b547149c2bfb49f2634d1db18fcf45e649ff22b202ddcdffbf9d",
+  "src\\edu_shift\\splits.py": "943fc498f947f90123e1dd02883c4224145c62f9f41f3ce289a794d7ba31cdeb",
+  "src\\edu_shift\\__init__.py": "146bb1aeea648bffe51abc9a6802efcf233c1e88b748c09e51b7123661ecbd8b",
+  "configs\\revision_v2.json": "df9fb2e36fad61fdf01a968742b963e05b9f1d2537535cabddbfc002a4667fa2",
+  "data\\processed_v2\\features_week2.parquet": "1eef5382d601c192a1137f503ebe31475961e45804ae32841dce441082c68bfc",
+  "data\\processed_v2\\features_week4.parquet": "7755b683c8d914410a20eeb42860624699749cb3797b163f46d278e5fea5861c",
+  "data\\processed_v2\\features_week6.parquet": "8315f675f8715fa6e7ee34a4d0e569be670dcbdbae2dcbb691c70366e14cf97f",
+  "data\\processed_v2\\features_week8.parquet": "b0c3ce6b1d153892b28c9ae859e99e8e83accf98a3ad3dafb34d084687a5ac1b"
+}

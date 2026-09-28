@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "All 25 KU Leuven partitions disjoint; fixed target identities across seeds",
+    "All saved probability metrics independently recomputed from saved predictions",
+    "All saved set coverage and selective metrics agree with saved prediction sets",
+    "Official-date window boundaries, zero-activity roster and forum posts verified",
+    "OULAD person identifiers disjoint across all four partitions"
+  ],
+  "status": "passed"
+}

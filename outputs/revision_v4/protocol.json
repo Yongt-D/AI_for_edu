@@ -1,0 +1,16 @@
+{
+  "scope": "Post-review analyses of frozen predictions; no new training or target-label tuning",
+  "seeds": [
+    42,
+    7,
+    19,
+    73,
+    101
+  ],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260920,
+  "bootstrap_unit": "KU Leuven enrolment; same resampling counts for all five seed predictions and methods within a cohort",
+  "estimand": "Arithmetic mean of five fitted-model performance metrics on the target distribution represented by the observed cohort",
+  "limitations": "Conditional on fitted models, source partitions and estimated weights; enrolment exchangeability approximation; no cross-environment person linkage or institutional generalisation",
+  "course_analysis": "Stratify predictions of the pooled-source models; not course-specific model retraining"
+}

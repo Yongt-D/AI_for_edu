@@ -1,0 +1,35 @@
+[
+  {
+    "year": "2018-2019",
+    "duplicate_enrolments_removed": 4,
+    "raw_log_rows": 1527090,
+    "unmatched_enrolment_log_rows": 190424,
+    "duplicate_log_rows_removed": 0,
+    "retained_log_rows": 1336666,
+    "unknown_content_rows": 0,
+    "enrolments": 1495,
+    "valid_outcome": 1495
+  },
+  {
+    "year": "2019-2020",
+    "duplicate_enrolments_removed": 6,
+    "raw_log_rows": 4459065,
+    "unmatched_enrolment_log_rows": 599145,
+    "duplicate_log_rows_removed": 0,
+    "retained_log_rows": 3859920,
+    "unknown_content_rows": 1570,
+    "enrolments": 1386,
+    "valid_outcome": 1386
+  },
+  {
+    "year": "2020-2021",
+    "duplicate_enrolments_removed": 2,
+    "raw_log_rows": 5924291,
+    "unmatched_enrolment_log_rows": 808247,
+    "duplicate_log_rows_removed": 0,
+    "retained_log_rows": 5116044,
+    "unknown_content_rows": 186695,
+    "enrolments": 1399,
+    "valid_outcome": 1399
+  }
+]

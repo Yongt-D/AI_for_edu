@@ -1,0 +1,28 @@
+{
+  "status": "Post-peer-review exploratory extension, fixed before new fitting",
+  "seeds": [
+    42,
+    7,
+    19,
+    73,
+    101
+  ],
+  "models": [
+    "logistic",
+    "catboost"
+  ],
+  "class_weight": [
+    "unweighted",
+    "balanced"
+  ],
+  "calibration": [
+    "none",
+    "platt",
+    "isotonic"
+  ],
+  "target_split": "50% adaptation / 50% evaluation, random_state=20260916, no label stratification",
+  "primary": "Inherited Logistic balanced / CatBoost unweighted; isotonic; full target batch; all five seeds equally reported",
+  "alpha": 0.1,
+  "weight_cap": 10,
+  "cluster_bootstrap_replicates": 2000
+}

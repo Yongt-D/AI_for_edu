@@ -1,0 +1,26 @@
+feature,definition,n_unique,n_missing
+total_clicks,Count of matched in-window logged actions (not necessarily physical clicks),833,0
+active_days,Number of distinct UTC dates with a logged action,28,0
+active_weeks,Number of completed-window week bins containing an action,5,0
+num_sessions,Number of distinct recorded session identifiers within the window,67,0
+night_activity_ratio,Fraction of actions with UTC hour <6 or >=22; published timestamp timezone treated consistently,1572,0
+weekend_activity_ratio,Fraction of actions occurring on Saturday or Sunday,2862,0
+material_clicks,Actions whose content type indicates course materials/resources,687,0
+assessment_clicks,Actions whose content type indicates assessments; grade-page access is separate,16,0
+forum_accesses,Actions on forum pages; does not establish that a post was read,60,0
+grade_page_accesses,Actions on pages of type Grades; no grades used as predictors,20,0
+main_page_accesses,Actions on a course main page,130,0
+unique_content,"Number of distinct accessed content identifiers, identifiers themselves excluded",83,0
+total_session_minutes,Sum of last minus first in-window event timestamps per session,3943,0
+median_session_minutes,Median of within-window session spans; not observed attention time,1143,0
+clicks_per_session,Logged actions divided by session count; zero when inactive,2283,0
+sessions_per_active_day,Session count divided by active days; zero when inactive,254,0
+active_day_fraction,Active days divided by 28; structurally proportional to active_days at a fixed checkpoint,28,0
+zero_activity,Indicator of no in-window log activity,2,0
+days_since_last_activity,Elapsed days from last action to exclusive cutoff; 28 for inactive enrolments,4119,0
+days_to_first_activity,Days after course start until first action; 28 for inactive enrolments,4060,0
+actions_week_1,Logged actions in days 0--6,228,0
+actions_week_2,Logged actions in days 7--13,365,0
+actions_week_3,Logged actions in days 14--20,368,0
+actions_week_4,Logged actions in days 21--27,353,0
+forum_posts,Number of distinct timestamped forum contributions created within the window,6,0

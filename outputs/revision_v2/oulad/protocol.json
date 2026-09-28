@@ -1,0 +1,8 @@
+{
+  "checkpoint": "day 0 <= date < 28; enrolled at day 28",
+  "outcome": "Fail or Withdrawn versus Pass or Distinction",
+  "scope": "Independent protocol replication; neither same endpoint as first-attempt failure nor cross-institution model transfer",
+  "features": "VLE click aggregates only; no assessments, demographics, final-result or registration dates as predictors",
+  "source_person_overlap_excluded": true,
+  "source": "https://doi.org/10.6084/m9.figshare.5081998.v1"
+}
